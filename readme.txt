@@ -1,10 +1,21 @@
 Author      : Manfred Rosenboom
 Site        : http://manfred.rosenboom.name/
 Description : A very simple personal page
-Version     : 1
-Last Update : Sat, 17 Aug 2013 12:01:00 +0100
+Last Update : Sat, 17 Aug 2013 12:55:00 +0100
 License     : Creative Commons Attribution 3.0 Unported License
               http://creativecommons.org/licenses/by/3.0/
+------------------------------------------------------------------------
+This code is inspired by the following article
+http://www.heise.de/ct/inhalt/2013/18/174/
+Daniel Berger
+Ihre beste Seite - Eleganter Einseiter als persönliche Homepage
+--
+Im Web verlagert sich die Selbstdarstellung verstärkt in soziale
+Netzwerke. Ausgedient hat die gute alte Homepage deshalb nicht: Sie
+fungiert als inhaltlich reduzierte Visitenkarte. Diese ist mit einigen
+CSS-Kniffen schnell produziert.
+Links & Extras zum Artikel: www.ct.de/1318174
+(http://manfred.rosenboom.name/personalHomePageCT.zip)
 ------------------------------------------------------------------------
 The social media icons in use are part of the
 Vector Social Media Icons by IconDock.com
