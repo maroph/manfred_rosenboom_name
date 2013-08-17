@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*
+ * Author      : Manfred Rosenboom
+ * Site        : http://manfred.rosenboom.name/
+ * Last Update : Fri, 16 Aug 2013 19:04:00 +0100
+ * License     : Creative Commons Attribution 3.0 Unported License
+ *               http://creativecommons.org/licenses/by/3.0/
+ * =============================================================================
+ */
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Yanone Kaffeesatz ExtraLight"), local("YanoneKaffeesatz-ExtraLight"), url(fonts/YanoneKaffeesatz.woff) format("woff");
+}
+
+/*
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    background-color: #111;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    line-height: 1;
+    font-size: 10px;
+    min-width: 200px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #FFF;
+    font-family: "Yanone Kaffeesatz", Sans-Serif;
+    font-weight: 200;
+    padding: 0 5%;
+    text-shadow: 1px 1px 0 #333;
+}
+
+h1 {
+    font-size: 600%;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin: 5% 0 10px 0;
+    word-wrap: break-word;
+}
+
+h2 {
+    font-size: 340%;
+    letter-spacing: 1px;
+}
+
+#bio {
+    position: relative;
+    width: 60%;
+    max-width: 600px;
+    padding: 5px 10px;
+    color: #FFF;
+    font-family: Georgia, Cambria, "Times New Roman", Serif;
+    font-size: 200%;
+    line-height: 1.5em;
+    text-shadow: 1px 1px 0 #333;
+    margin: 60px 5% 0 5%;
+    z-index: 1;
+    background-color: #000;
+    opacity: .6;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+}
+
+#bio p {
+    margin: 10px 0;
+}
+
+#bio a {
+    color: #ECCFAE;
+    transition: color .2s ease;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+}
+
+#bio a:hover {
+    color: #FFF;
+}
+
+#social {
+    margin: 60px 5% 5% 5%;
+}
+
+#social img {
+    width: 32px;
+    height: auto;
+}
+
+#social a {
+    margin: 0 8px 0 0;
+}
+
+#social a:hover {
+    opacity: .6;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+}
+
+#license {
+    clear: both;
+    margin: 60px 5% 0 5%;
+}
+
+
+@media screen and (min-width: 440px) and (max-width: 660px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+    #bio {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 439px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+    #bio {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 339px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+    #bio {
+        font-size: 1.4em;
+    }
+}
