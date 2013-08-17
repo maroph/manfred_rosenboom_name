@@ -1,7 +1,7 @@
 Author      : Manfred Rosenboom
 Site        : http://manfred.rosenboom.name/
 Description : A very simple personal page
-Last Update : Sat, 17 Aug 2013 12:55:00 +0100
+Last Update : Sat, 17 Aug 2013 16:36:00 +0100
 License     : Creative Commons Attribution 3.0 Unported License
               http://creativecommons.org/licenses/by/3.0/
 ------------------------------------------------------------------------
