@@ -2,7 +2,7 @@
 /*
  * Author      : Manfred Rosenboom
  * Site        : http://manfred.rosenboom.name/
- * Last Update : Sat, 17 Aug 2013 16:36:00 +0100
+ * Last Update : Mon, 19 Aug 2013 11:49:00 +0100
  * License     : Creative Commons Attribution 3.0 Unported License
  *               http://creativecommons.org/licenses/by/3.0/
  * =============================================================================
@@ -44,17 +44,31 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+/* ----- */
 
 body {
     background: #111 url("bg.jpg") no-repeat fixed center center;
     background-size: cover;
     line-height: 1;
     font-size: 10px;
-    min-width: 200px;
+    min-width: 240px;
+}
+
+header, section, footer {
+    margin: 0 5%;
+    clear: both;
+}
+
+header {
+    margin-top: 5%;
+}
+
+section {
+    margin-top: 10px;
 }
 
 footer {
-    margin: 20px 5% 0 5%;
+    margin-top: 20px;
 }
 
 footer>hr {
@@ -81,15 +95,13 @@ h1, h2 {
     color: #FFF;
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-weight: 200;
-    padding: 0 5%;
     text-shadow: 1px 1px 0 #333;
 }
 
 h1 {
     font-size: 600%;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     text-transform: uppercase;
-    margin: 5% 0 10px 0;
     word-wrap: break-word;
 }
 
@@ -98,20 +110,49 @@ h2 {
     letter-spacing: 1px;
 }
 
+#social {
+    margin-top: 20px;
+}
+
+#social img {
+    width: auto;
+    height: 24px;
+}
+
+#social a {
+    margin: 0 4px 0 0;
+}
+
+#social a:hover {
+    opacity: .6;
+}
+
+#content {
+    margin-top: 10px;
+}
+
+#photo {
+    float: left;
+    width: 200px;
+}
+#photo img {
+    border: 1px solid black;
+    opacity: 1;
+}
+
 #bio {
-    position: relative;
     width: 60%;
     max-width: 600px;
-    margin: 20px 5% 0 5%;
+    margin: 0 0 0 210px;
     padding: 5px 10px;
     color: #FFF;
     font-family: Georgia, Cambria, "Times New Roman", serif;
     font-size: 200%;
     line-height: 1.5em;
     text-shadow: 1px 1px 0 #333;
-    z-index: 1;
     background-color: #000;
     opacity: .6;
+    border: 1px solid black;
 }
 
 #bio p {
@@ -126,31 +167,15 @@ h2 {
     color: #FFF;
 }
 
-#social {
-    margin: 20px 5% 20px 5%;
-}
-
-#social img {
-    width: auto;
-    height: 24px;
-}
-
-#social a {
-    margin: 0 8px 0 0;
-}
-
-#social a:hover {
-    opacity: .6;
-}
-
-#license {
-    clear: both;
+#validation {
+    padding-left: 20px;
 }
 
 
 @media screen and (min-width: 440px) and (max-width: 660px) {
     h1 {
         font-size: 3em;
+        letter-spacing: 5px;
     }
 
     h2 {
@@ -158,12 +183,15 @@ h2 {
     }
     #bio {
         font-size: 1.8em;
+        clear: both;
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 340px) and (max-width: 439px) {
     h1 {
         font-size: 2em;
+        letter-spacing: 3px;
     }
 
     h2 {
@@ -171,12 +199,15 @@ h2 {
     }
     #bio {
         font-size: 1.6em;
+        clear: both;
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 1px) and (max-width: 339px) {
     h1 {
         font-size: 1.6em;
+        letter-spacing: 1px;
     }
 
     h2 {
@@ -184,5 +215,7 @@ h2 {
     }
     #bio {
         font-size: 1.4em;
+        clear: both;
+        margin: 0;
     }
 }
