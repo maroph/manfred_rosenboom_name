@@ -2,7 +2,7 @@
 /*
  * Author      : Manfred Rosenboom
  * Site        : http://manfred.rosenboom.name/
- * Last Update : Mon, 19 Aug 2013 11:49:00 +0100
+ * Last Update : Tue, 10 Sep 2013 13:19:00 +0200
  * License     : Creative Commons Attribution 3.0 Unported License
  *               http://creativecommons.org/licenses/by/3.0/
  * =============================================================================
@@ -131,27 +131,16 @@ h2 {
     margin-top: 10px;
 }
 
-#photo {
-    float: left;
-    width: 200px;
-}
-#photo img {
-    border: 1px solid black;
-    opacity: 1;
-}
-
 #bio {
     width: 60%;
+    min-width: 200px;
     max-width: 600px;
-    margin: 0 0 0 210px;
-    padding: 5px 10px;
     color: #FFF;
     font-family: Georgia, Cambria, "Times New Roman", serif;
     font-size: 200%;
     line-height: 1.5em;
     text-shadow: 1px 1px 0 #333;
-    background-color: #000;
-    opacity: .6;
+    background:rgba(0,0,0,0.6);
     border: 1px solid black;
 }
 
@@ -165,6 +154,16 @@ h2 {
 
 #bio a:hover {
     color: #FFF;
+}
+
+#bio_photo {
+    float: left;
+    width: 200px;
+    padding: 0 10px 10px 0;
+}
+#bio_photo img {
+    border: 1px solid black;
+    opacity: 1;
 }
 
 #validation {
